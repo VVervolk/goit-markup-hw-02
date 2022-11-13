@@ -22,7 +22,7 @@ a {
 .logo {
     color: var(--focus-color);
     
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -68,7 +68,7 @@ h1 {
 
     border-radius: 4px;
 
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -145,4 +145,25 @@ footer {
 .contacts:hover,
 .contacts:focus {
     color: var(--focus-color);
+}
+
+.filter {
+    color: var(--title-color);
+    background-color: #F5F4FA;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+
+    cursor: pointer;
+}
+
+.filter:hover,
+.filter:focus {
+    color: #fff;
+    background-color: var(--focus-color);
 }
