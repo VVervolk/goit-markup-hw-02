@@ -157,8 +157,7 @@ footer {
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-    border-radius: 4px;
-
+    
     cursor: pointer;
 }
 
@@ -166,4 +165,16 @@ footer {
 .filter:focus {
     color: #fff;
     background-color: var(--focus-color);
+}
+
+.project-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.project-category {
+    font-size: 16px;
+        line-height: 1.88;
 }
